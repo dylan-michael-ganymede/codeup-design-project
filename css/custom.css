@@ -18,61 +18,20 @@ h2 {
     padding-top: 10em;
     text-align: center;
 }
-
-.col {
-    /*margin: 10px;*/
-    display: inline-block;
-    vertical-align: top;
-    border: 10px solid white;
-    font-family: 'Anton', sans-serif;
-    margin: 0 auto;
-    text-align: center;
-    /*align-content: center;*/
-}
-.circleone {
-    width: 200px;
-    height: 200px;
+.circle {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
     border-radius: 50%;
-    font-size: 50px;
-    color: #fff;
-    line-height: 200px;
-    text-align: center;
-    background: #e6563b;
-
+    border: solid white 8px;
+    margin: 9.6px;
 
 }
-.circletwo {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    font-size: 50px;
-    color: #fff;
-    line-height: 200px;
-    text-align: center;
-    background: #eb9d3a
-}
-.circlethree {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    font-size: 50px;
-    color: #fff;
-    line-height: 200px;
-    text-align: center;
-    background: #7cb06c
+.circleone {background: #e6563b;}
+.circletwo {background: #eb9d3a;}
+.circlethree {background: #7cb06c;}
+.circlefour {background: #00aba9;}
 
-}
-.circlefour {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    font-size: 50px;
-    color: #fff;
-    line-height: 200px;
-    text-align: center;
-    background: #00aba9
-
-}
 .img-one {
     margin: auto;
     width: 640px;
