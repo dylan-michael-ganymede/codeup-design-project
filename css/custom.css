@@ -1,11 +1,70 @@
+body {
+    background: #e6e6e6;
+}
 h1 {
     font-weight: bold;
     font-size: 64px;
     font-family: 'Anton', sans-serif;
+    text-align: center;
 }
 h2 {
     font-weight: bold;
     font-size: 48px;
     font-family: 'Anton', sans-serif;
+    text-align: center;
 }
+ul {
+    list-style: none;
+    font-family: 'Anton', sans-serif;
+    /*display: flex;*/
+    margin: 0 auto;
+    text-align: center;
+}
+li {
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.circleone {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #fff;
+    line-height: 200px;
+    text-align: center;
+    background: #e6563b;
 
+}
+.circletwo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #fff;
+    line-height: 200px;
+    text-align: center;
+    background: #eb9d3a
+}
+.circlethree {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #fff;
+    line-height: 200px;
+    text-align: center;
+    background: #7cb06c
+
+}
+.circlefour {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #fff;
+    line-height: 200px;
+    text-align: center;
+    background: #00aba9
+
+}
