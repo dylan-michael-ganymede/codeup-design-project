@@ -1,5 +1,5 @@
 body {
-    background: #e6e6e6;
+    background: #f0f0f0;
 }
 h1 {
     font-weight: bold;
@@ -13,6 +13,11 @@ h2 {
     font-family: 'Anton', sans-serif;
     text-align: center;
 }
+.head-one {
+    font-family: 'Abel', sans-serif;
+    padding-top: 10em;
+    text-align: center;
+}
 ul {
     list-style: none;
     font-family: 'Anton', sans-serif;
@@ -24,6 +29,7 @@ li {
     margin: 10px;
     display: inline-block;
     vertical-align: top;
+    border: 10px solid white;
 }
 .circleone {
     width: 200px;
@@ -34,6 +40,7 @@ li {
     line-height: 200px;
     text-align: center;
     background: #e6563b;
+
 
 }
 .circletwo {
@@ -68,3 +75,28 @@ li {
     background: #00aba9
 
 }
+.img-one {
+    margin: auto;
+    width: 640px;
+    border: 20px solid #e6e6e6;
+    border-radius: 2%;
+
+}
+.head-two {
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    margin-left: 2em;
+}
+.icons {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 50px;
+    line-height: 18px;
+    text-align: center;
+
+}
+.icon-one {background-color: #e6563b;}
+.icon-two {background-color: #eb9d3a;}
+.icon-three {background-color: #7cb06c;}
+.icon-four {background-color: #00aba9;}
