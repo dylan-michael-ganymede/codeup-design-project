@@ -4,17 +4,18 @@ body {
     background: #f0f0f0;
     width: 100vw;
 }
-
 .logo {
-
+    width: 105px;
+    height: 105px;
+    position: relative;
 }
-
 h3 {
     font-family: 'Abel', sans-serif;
     font-weight: bold;
     font-size: 60px;
     text-align: center;
     padding-bottom: 1em;
+    padding-top: 40px;
 }
 
 h1 {
@@ -31,16 +32,14 @@ h2 {
     font-size: 48px;
     font-family: 'Anton', sans-serif;
     text-align: center;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 .sub h4 {
     font-size: 32px;
     font-family: 'Abel', sans-serif;
     width: 100%;
-    /*margin-left: 2em;*/
     font-weight: normal;
-    margin: auto;
 }
 
 .head-one {
@@ -56,11 +55,11 @@ h2 {
     line-height: 105px;
     border-radius: 50%;
     border: solid white 8px;
-    margin: 9.6px;
+    /*margin: 9.6px;*/
     color: #ffffff;
     font-weight: bold;
     font-family: 'Anton', sans-serif;
-    font-size: 35px;
+    font-size: 20px;
 
 }
 
@@ -91,7 +90,6 @@ h2 {
 }
 ul {
     list-style-type: none;
-
 }
 .icons {
     font-family: 'Anton', sans-serif;
