@@ -1,17 +1,30 @@
 body {
     background: #f0f0f0;
 }
+.logo {
+
+}
+h3 {
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 1em;
+}
 h1 {
     font-weight: bold;
     font-size: 64px;
     font-family: 'Anton', sans-serif;
     text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 h2 {
     font-weight: bold;
     font-size: 48px;
     font-family: 'Anton', sans-serif;
     text-align: center;
+    padding-bottom: 2em;
 }
 .head-one {
     font-family: 'Abel', sans-serif;
@@ -19,12 +32,16 @@ h2 {
     text-align: center;
 }
 .circle {
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
     border-radius: 50%;
     border: solid white 8px;
     margin: 9.6px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
 
 }
 .circleone {background: #e6563b;}
