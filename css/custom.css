@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #f0f0f0;
+    width: 100vw;
 }
 
 .logo {
@@ -33,8 +34,13 @@ h2 {
     padding-bottom: 2em;
 }
 
-h4 {
+.sub h4 {
     font-size: 32px;
+    font-family: 'Abel', sans-serif;
+    width: 100%;
+    /*margin-left: 2em;*/
+    font-weight: normal;
+    margin: auto;
 }
 
 .head-one {
@@ -83,32 +89,18 @@ h4 {
 .img-one img {
     width: 100%;
 }
+ul {
+    list-style-type: none;
 
-footer, section {
-    display: flex;
-    flex-direction: column;
 }
-.sub {
-    width: 100%;
-}
-.head-two {
-    font-family: 'Abel', sans-serif;
-    font-size: 40px;
-    width: 640px;
-    /*margin-left: 2em;*/
-    font-weight: normal;
-    margin: auto;
-}
-
 .icons {
     font-family: 'Anton', sans-serif;
     width: 18px;
     height: 18px;
     border-radius: 50%;
-    margin: auto;
-    font-size: 50px;
-    line-height: 100px;
-    list-style-type: none;
+    /*margin: auto;*/
+    font-size: 10px;
+    line-height: 18px;
     text-align: center;
 
 }
