@@ -1,9 +1,13 @@
 body {
+    margin: 0;
+    padding: 0;
     background: #f0f0f0;
 }
+
 .logo {
 
 }
+
 h3 {
     font-family: 'Abel', sans-serif;
     font-weight: bold;
@@ -11,6 +15,7 @@ h3 {
     text-align: center;
     padding-bottom: 1em;
 }
+
 h1 {
     font-weight: bold;
     font-size: 64px;
@@ -19,6 +24,7 @@ h1 {
     padding-bottom: 1em;
     padding-top: 1em;
 }
+
 h2 {
     font-weight: bold;
     font-size: 48px;
@@ -26,15 +32,22 @@ h2 {
     text-align: center;
     padding-bottom: 2em;
 }
+
+h4 {
+    font-size: 32px;
+}
+
 .head-one {
     font-family: 'Abel', sans-serif;
-    padding-top: 10em;
+    padding-top: 4em;
+    padding-bottom: 2em;
     text-align: center;
 }
+
 .circle {
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
+    width: 105px;
+    height: 105px;
+    line-height: 105px;
     border-radius: 50%;
     border: solid white 8px;
     margin: 9.6px;
@@ -44,39 +57,75 @@ h2 {
     font-size: 35px;
 
 }
-.circleone {background: #e6563b;}
-.circletwo {background: #eb9d3a;}
-.circlethree {background: #7cb06c;}
-.circlefour {background: #00aba9;}
+
+.circleone {
+    background: #e6563b;
+}
+
+.circletwo {
+    background: #eb9d3a;
+}
+
+.circlethree {
+    background: #7cb06c;
+}
+
+.circlefour {
+    background: #00aba9;
+}
 
 .img-one {
     margin: auto;
-    width: 640px;
+    width: 100%;
     border: 20px solid #e6e6e6;
     border-radius: 2%;
-
 }
-footer section {
+.img-one img {
+    width: 100%;
+}
+
+footer, section {
     display: flex;
+    flex-direction: column;
+}
+.sub {
+    width: 100%;
 }
 .head-two {
     font-family: 'Abel', sans-serif;
     font-size: 40px;
-    margin-left: 2em;
-    /*margin: auto;*/
+    width: 640px;
+    /*margin-left: 2em;*/
+    font-weight: normal;
+    margin: auto;
 }
+
 .icons {
-    /*font-family: 'Anton', sans-serif;*/
-    /*width: 150px;*/
-    /*height: 150px;*/
-    /*border-radius: 50%;*/
-    /*font-size: 50px;*/
-    /*line-height: 150px;*/
-    /*text-align: center;*/
-    /*float: right;*/
+    font-family: 'Anton', sans-serif;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin: auto;
+    font-size: 50px;
+    line-height: 100px;
+    list-style-type: none;
+    text-align: center;
+
 }
-.icon-one {background-color: #e6563b;}
-.icon-two {background-color: #eb9d3a;}
-.icon-three {background-color: #7cb06c;}
-.icon-four {background-color: #00aba9;}
+
+.icon-one {
+    background-color: #e6563b;
+}
+
+.icon-two {
+    background-color: #eb9d3a;
+}
+
+.icon-three {
+    background-color: #7cb06c;
+}
+
+.icon-four {
+    background-color: #00aba9;
+}
 
