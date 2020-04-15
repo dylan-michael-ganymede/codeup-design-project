@@ -18,14 +18,20 @@
     <h3>codeup design</h3>
 </div>
 <nav>
-    <div class="custom-navbar row">
-        <div class="col"></div>
-        <div class="col col-sm-2 col-md-1">SERVICES</div>
-        <div class="col col-sm-2 col-md-1">WORK</div>
-        <div class="col col-sm-2 col-md-1">BLOG</div>
-        <div class="col col-sm-2 col-md-1">CONTACT</div>
-        <div class="col"></div>
-    </div>
+    <ul class="d-flex">
+        <li>SERVICES</li>
+        <li>WORK</li>
+        <li>BLOG</li>
+        <li>CONTACT</li>
+    </ul>
+    <!--    <div class="custom-navbar row">-->
+    <!--        <div class="col"></div>-->
+    <!--        <div class="col col-sm-2 col-md-1">SERVICES</div>-->
+    <!--        <div class="col col-sm-2 col-md-1 mr-5">WORK</div>-->
+    <!--        <div class="col col-sm-2 col-md-1 ml-5">BLOG</div>-->
+    <!--        <div class="col col-sm-2 col-md-1">CONTACT</div>-->
+    <!--        <div class="col"></div>-->
+    <!--    </div>-->
 </nav>
 <main class="container container-fluid">
     <section>
@@ -43,7 +49,8 @@
     </section>
     <footer class="container container-fluid">
         <h4 class="head-one">SELECTED WORK</h4>
-        <span>
+        <span class="cards row">
+            <div class="col-sm-6">
         <div class="img-one">
             <img src="images/apple-ipad.jpg">
         </div>
@@ -56,7 +63,8 @@
                     <li class="icons icon-four">H</li>
                 </ul>
         </section>
-        <br>
+            </div>
+        <div class="col-sm-6">
         <div class="img-one">
             <img src="images/macbook.jpg">
         </div>
@@ -69,7 +77,9 @@
                 <li class="icons icon-four">H</li>
             </ul>
         </section>
-        <br>
+        </div>
+            <div class="row">
+                <div class="col-sm-6">
         <div class="img-one">
             <img src="images/man.jpg">
         </div>
@@ -82,7 +92,8 @@
                 <li class="icons icon-four">H</li>
             </ul>
         </section>
-        <br>
+                </div>
+                <div class="col-sm-6">
         <div class="img-one">
             <img src="images/security.jpg">
         </div>
@@ -95,6 +106,8 @@
                 <li class="icons icon-four">H</li>
             </ul>
         </section>
+                </div>
+            </div>
         </span>
     </footer>
 </main>
