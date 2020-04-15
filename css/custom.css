@@ -7,7 +7,21 @@ body {
 .logo {
     width: 105px;
     height: 105px;
-    position: relative;
+
+}
+.custom-navbar {
+    display: flex;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
+    margin: auto;
+    /*width: 60%;*/
+    padding: 0;
+}
+.nav {
+    padding: 1em;
+}
+.nav-background {
+    position: absolute;
+    z-index: -1;
 }
 h3 {
     font-family: 'Abel', sans-serif;
@@ -93,6 +107,7 @@ h2 {
 }
 ul {
     list-style-type: none;
+
 }
 .icons {
     font-family: 'Anton', sans-serif;
@@ -125,11 +140,15 @@ ul {
     body {
 
     }
-    nav {
-        display: block;
+    .custom-navbar {
+        display: flex;
+        /*margin-top: -250px;*/
         position: absolute;
-        margin-top: -230px;
         width: 100%;
+        justify-content: flex-end;
+    }
+    .nav {
+
     }
     .row {
         width: 100%;
